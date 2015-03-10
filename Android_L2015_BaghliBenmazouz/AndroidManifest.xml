@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pfe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pfe.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pfe.Patient"
+            android:label="@string/title_activity_patient" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Pharmacien"
+            android:label="@string/title_activity_pharmacien" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Medecin"
+            android:label="@string/title_activity_medecin" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Labo"
+            android:label="@string/title_activity_labo" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Radiologue"
+            android:label="@string/title_activity_radiologue" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Recherche"
+            android:label="@string/title_activity_recherche" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Historique"
+            android:label="@string/title_activity_historique" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Prescriptionac"
+            android:label="@string/title_activity_prescriptionac" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Historiquemedoc"
+            android:label="@string/title_activity_historiquemedoc" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Clients"
+            android:label="@string/title_activity_clients" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Rendezvous"
+            android:label="@string/title_activity_rendezvous" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Recherche1"
+            android:label="@string/title_activity_recherche1" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Details1"
+            android:label="@string/title_activity_details1" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Diagnostique"
+            android:label="@string/title_activity_diagnostique" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Prescription"
+            android:label="@string/title_activity_prescription" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Ajouterv"
+            android:label="@string/title_activity_ajouterv" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Details2"
+            android:label="@string/title_activity_details2" >
+        </activity>
+        <activity
+            android:name="com.example.pfe.Inscription"
+            android:label="@string/title_activity_inscription" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Prescription" >
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:hint="Type de prescription" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/nbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/type"
+        android:layout_below="@+id/type"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Nombre de médicaments" />
+
+    <EditText
+        android:id="@+id/nommedoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nbr"
+        android:layout_below="@+id/nbr"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="Nom medicament" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/posologie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nommedoc"
+        android:layout_below="@+id/dureemedoc"
+        android:ems="10"
+        android:hint="Posologie" />
+
+    <EditText
+        android:id="@+id/dureemedoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nommedoc"
+        android:layout_below="@+id/nommedoc"
+        android:ems="10"
+        android:hint="Durée" />
+
+    <Button
+        android:id="@+id/btnvalider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/posologie"
+        android:layout_below="@+id/posologie"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="60dp"
+        android:text="Valider" />
+
+    <Button
+        android:id="@+id/btnannuler2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnvalider"
+        android:layout_alignBottom="@+id/btnvalider"
+        android:layout_alignLeft="@+id/posologie"
+        android:text="Annuler" />
+
+</RelativeLayout>
