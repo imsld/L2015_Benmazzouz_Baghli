@@ -1,0 +1,19 @@
+05-15 08:33:53.471    5937-5937/com.example.kim_dev.sysgmpe D/SessionManager﹕ User login session modified!
+05-15 08:33:53.872    5937-5937/com.example.kim_dev.sysgmpe D/SQLiteHandler﹕ Deleted all user info from sqlite
+05-15 08:33:53.926    5937-5937/com.example.kim_dev.sysgmpe D/SQLiteHandler﹕ Fetching user from Sqlite: {}
+05-15 08:33:54.122    5937-5953/com.example.kim_dev.sysgmpe D/OpenGLRenderer﹕ Render dirty regions requested: true
+05-15 08:33:54.134    5937-5937/com.example.kim_dev.sysgmpe D/﹕ HostConnection::get() New Host Connection established 0xae0fcec0, tid 5937
+05-15 08:33:54.147    5937-5937/com.example.kim_dev.sysgmpe D/Atlas﹕ Validating map...
+05-15 08:33:54.228    5937-5953/com.example.kim_dev.sysgmpe D/﹕ HostConnection::get() New Host Connection established 0xa6c202a0, tid 5953
+05-15 08:33:54.248    5937-5953/com.example.kim_dev.sysgmpe I/OpenGLRenderer﹕ Initialized EGL, version 1.4
+05-15 08:33:54.264    5937-5953/com.example.kim_dev.sysgmpe D/OpenGLRenderer﹕ Enabling debug mode 0
+05-15 08:33:54.301    5937-5953/com.example.kim_dev.sysgmpe W/EGL_emulation﹕ eglSurfaceAttrib not implemented
+05-15 08:33:54.301    5937-5953/com.example.kim_dev.sysgmpe W/OpenGLRenderer﹕ Failed to set EGL_SWAP_BEHAVIOR on surface 0xa6c212a0, error=EGL_SUCCESS
+05-15 08:34:03.346    5937-5953/com.example.kim_dev.sysgmpe W/EGL_emulation﹕ eglSurfaceAttrib not implemented
+05-15 08:34:03.346    5937-5953/com.example.kim_dev.sysgmpe W/OpenGLRenderer﹕ Failed to set EGL_SWAP_BEHAVIOR on surface 0xa6c476a0, error=EGL_SUCCESS
+05-15 08:34:03.499    5937-5962/com.example.kim_dev.sysgmpe E/Volley﹕ [464] BasicNetwork.performRequest: Unexpected response code 403 for http://10.0.2.2/android_login_api/
+05-15 08:34:03.529    5937-5962/com.example.kim_dev.sysgmpe E/Volley﹕ [464] BasicNetwork.performRequest: Unexpected response code 403 for http://10.0.2.2/android_login_api/
+05-15 08:34:03.627    5937-5949/com.example.kim_dev.sysgmpe I/art﹕ Background partial concurrent mark sweep GC freed 4844(251KB) AllocSpace objects, 0(0B) LOS objects, 57% free, 768KB/1792KB, paused 7.370ms total 101.851ms
+05-15 08:34:03.663    5937-5937/com.example.kim_dev.sysgmpe E/InsMedcin﹕ Login Error: null
+05-15 08:34:03.778    5937-5953/com.example.kim_dev.sysgmpe W/EGL_emulation﹕ eglSurfaceAttrib not implemented
+05-15 08:34:03.778    5937-5953/com.example.kim_dev.sysgmpe W/OpenGLRenderer﹕ Failed to set EGL_SWAP_BEHAVIOR on surface 0xa6c476a0, error=EGL_SUCCESS
